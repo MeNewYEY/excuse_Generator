@@ -1,9 +1,9 @@
-window.onload = function () {
+
     document.getElementById('button').addEventListener("click", function() {
         document.getElementById('excuse').innerHTML=generator();
     }
     );
-}
+
 
 function generator() {
   
